@@ -15,8 +15,8 @@ const NavbarDesktopMenu: FunctionComponent = () => {
         <NavbarDesktopLink to="/" text="Contact" />
       </div>
       <div className={styles.list}>
-        <NavbarDesktopLink to="/" text="Sign in" />
-        <NavbarDesktopButton to="/" text="Sign up" />
+        <NavbarDesktopLink to="/login" text="Sign in" />
+        <NavbarDesktopButton to="/register" text="Sign up" />
       </div>
     </div>
   );

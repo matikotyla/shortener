@@ -1,0 +1,6 @@
+@use "styles/mixins" as *;
+
+.root {
+  @include page;
+  @apply flex justify-center items-center;
+}
