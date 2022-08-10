@@ -2,5 +2,22 @@
 
 .root {
   @include page;
-  @apply flex justify-center items-center;
+  @apply mx-auto;
+}
+
+.container {
+  @apply min-h-screen flex;
+}
+
+.left {
+  @apply flex-1 flex flex-col justify-center;
+}
+
+.right {
+  @apply hidden xl:flex flex-col justify-center flex-1;
+}
+
+.content {
+  // @apply mx-auto w-full max-w-md;
+  @apply mx-auto w-full space-y-8;
 }

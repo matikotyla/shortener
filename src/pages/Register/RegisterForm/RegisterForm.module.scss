@@ -1,0 +1,11 @@
+.root {
+  @apply space-y-6;
+}
+
+.row {
+  @apply grid grid-cols-6 gap-6;
+}
+
+.column {
+  @apply col-span-6 sm:col-span-3;
+}
